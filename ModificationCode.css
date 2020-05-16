@@ -1,0 +1,119 @@
+/*It's the Outline*/
+
+.selected-aXhQR6 .layout-2DM8Md {
+  background-color: rgba(0,0,0,.9);
+  color: #789dbf;
+  border: 1px solid #789dbf;
+}
+
+/*Colors on the Sidebar*/
+
+.item-2hkk8m {
+  border: 2px solid rgba(255,255,255,.3);
+  background-color: #789dbf;
+}
+
+/*It's the Date Format*/
+
+.divider-JfaTT5 {
+  border: none !important;
+}
+#app-mount .content-1o0f9g {
+  color: silver;
+  background-color: rgba(255,255,255,.12);
+  padding: 4px 7px;
+}
+
+/*This is the Context Menu*/
+
+.contextMenu-HLZMGh {
+  background: black;
+  box-shadow: none;
+  border-radius: 6px;
+  border: 2px solid rgba(255,255,255,.3);
+}
+
+/*This Makes The Leave Button More Red*/
+
+.item-1Yvehc.danger-2dXSTE, 
+.theme-dark .item-1GzJrl.leave-1DRJfn {
+  color: #d52b27;
+}
+.item-1Yvehc.danger-2dXSTE:hover,
+.theme-dark .item-1GzJrl:hover.leave-1DRJfn{
+  background-color: #d52b27;
+  color: white;
+}
+
+/*This Makes The Invite People Button More Blue*/
+
+.item-1Yvehc.brand-3igrJY,
+.theme-dark .item-1GzJrl.invite-271nFU{
+  color: #435ad0;
+}
+.item-1Yvehc.brand-3igrJY:hover,
+.theme-dark .item-1GzJrl:hover.invite-271nFU {
+  color: white;
+  background-color: #435ad0;
+}
+
+/*This Makes The Highlight On The Option Menus*/
+
+.clickable-11uBi-:hover, 
+.selected-BYpGTS {
+  background: #789dbf;
+}
+
+/*This Makes The Notifications Pop*/
+
+.numberBadge-2s8kKX {
+  background-color: black !important;
+   height: 26px;
+  width: 26px !important;
+  margin-bottom: -3px;
+  margin-right: -5px;
+  border: 2px solid #789dbf;
+}
+
+/*This Makes The Tabs Fade*/
+
+.theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,
+.theme-dark .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh {
+   background: linear-gradient(270deg, transparent 30%, rgba(120, 157, 191,1) 100%);
+}
+
+/*This Makes The Tabs Round*/
+
+.content-3at_AU {
+  border-radius: 9px;
+}
+
+/*This Makes The Scroll Bar Pop*/
+
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
+  background: rgba(120, 157, 191, 0.5);
+  border: 2px solid rgba(120, 157, 191, 0.7);
+  border-radius: 4px;
+}
+
+/*This Makes The Emoji Picker Look Better*/
+
+.emojiPicker-3PwZFl .header-8ilj5e {
+  border: none;
+  box-shadow: none;
+}
+.inspector-sdLnLS {
+  background: none;
+}
+.contentWrapper-2txmjs {
+  background-color: rgba(0,0,0,0.8);
+  border: none;
+}
+
+/*This Changes The Font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+body * {
+    font-family: 'Handlee', cursive;
+}
