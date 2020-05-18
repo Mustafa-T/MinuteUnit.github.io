@@ -91,9 +91,8 @@
 /*This Makes The Scroll Bar Pop*/
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-  background: rgba(120, 157, 191, 0.5);
-  border: 2px solid rgba(120, 157, 191, 0.7);
-  border-radius: 4px;
+    background-color: #ffffff;
+    border-color: #ffffff
 }
 
 /*This Makes The Emoji Picker Look Better*/
