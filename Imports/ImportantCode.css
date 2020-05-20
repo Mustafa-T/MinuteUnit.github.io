@@ -460,10 +460,6 @@ div.unread-mentions-indicator-bottom {
     display: none !important;
 }
 
-.tooltip.tooltip-black * {
-    background-color: rgba(33,33,33,.68);
-}
-
 .theme-dark .status-2s6iDp {
     border-color: rgba(0,0,0,0);
 }
