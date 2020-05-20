@@ -794,7 +794,7 @@ div.unread-mentions-indicator-bottom {
 
 .tooltip.tooltip-black:before,
 .tooltip.tooltip-black:after {
-    border-color: transparent !important;
+    border-color: transparent;
 }
 
 .theme-dark .ui-standard-sidebar-view .sidebar-region {

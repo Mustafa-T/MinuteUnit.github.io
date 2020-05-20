@@ -111,6 +111,31 @@
   border: none;
 }
 
+/*This Makes The Friends' Scroll Bar Black*/
+
+.theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb {
+  background-color: black;
+}
+
+/*Makes The Tooltips Look Better*/
+
+.theme-dark .tooltipBlack-PPG47z {
+  background-color: #789dbf;
+}
+.icon-KgGMGo,
+.button-1ZiXG9 {
+  color: white;
+}
+.toolbar-2bjZV7 {
+  background-color: #789dbf;
+  border-radius: 0;
+  box-shadow: none;
+}
+.wrapper-2aW0bm {
+  background-color: #789dbf;
+  border-radius: 0;
+}
+
 /*This Changes The Font*/
 
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
