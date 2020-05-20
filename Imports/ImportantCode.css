@@ -789,7 +789,7 @@ div.unread-mentions-indicator-bottom {
 }
 
 .tooltip.tooltip-black {
-    background-color: rgba(33,33,33,.68) !important;
+    background-color: rgba(33,33,33,.68);
 }
 
 .tooltip.tooltip-black:before,
