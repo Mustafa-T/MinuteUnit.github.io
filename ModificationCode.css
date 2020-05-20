@@ -68,11 +68,12 @@
 
 .numberBadge-2s8kKX {
   background-color: black !important;
-   height: 26px;
-  width: 26px !important;
-  margin-bottom: -3px;
-  margin-right: -5px;
-  border: 2px solid #789dbf;
+  height: 27px;
+  width: 27px !important;
+  margin-bottom: -1px;
+  margin-right: 1px;
+  border-radius: 50%;
+  border: 2px solid #789dbf
 }
 
 /*This Makes The Tabs Fade*/
@@ -80,6 +81,7 @@
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,
 .theme-dark .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh {
    background: linear-gradient(270deg, transparent 30%, rgba(120, 157, 191,1) 100%);
+   border: 1px solid #789dbf;
 }
 
 /*This Makes The Tabs Round*/
@@ -91,8 +93,8 @@
 /*This Makes The Scroll Bar Pop*/
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-    background-color: #ffffff;
-    border-color: #ffffff
+    background-color: rgba(0, 0, 0, 1);
+    border-color: rgba(0, 0, 0, 0);
 }
 
 /*This Makes The Emoji Picker Look Better*/
