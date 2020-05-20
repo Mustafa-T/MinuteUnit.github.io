@@ -1,5 +1,5 @@
 html {
-    font-size: var(--font-size)  ;
+    font-size: var(--font-size) !important;
 }
 
 .container-2lgZY8 {
