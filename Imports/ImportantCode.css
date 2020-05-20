@@ -788,10 +788,6 @@ div.unread-mentions-indicator-bottom {
     background-color: rgba(0,0,0,.3);
 }
 
-.tooltip.tooltip-black {
-    background-color: rgba(33,33,33,.68) !important;
-}
-
 .tooltip.tooltip-black:before,
 .tooltip.tooltip-black:after {
     border-color: transparent !important;
