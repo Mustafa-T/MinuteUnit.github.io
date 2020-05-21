@@ -119,6 +119,10 @@
 
 /*Makes The Tooltips Look Better*/
 
+.theme-dark .tooltip-2QfLtc {
+  box-shadow: none;
+  color: white;
+}
 .theme-dark .tooltipBlack-PPG47z {
   background-color: #789dbf;
 }
@@ -133,7 +137,7 @@
 }
 .wrapper-2aW0bm {
   background-color: #789dbf;
-  border-radius: 0;
+  border-radius: 20px;
 }
 
 /*This Changes The Font*/
