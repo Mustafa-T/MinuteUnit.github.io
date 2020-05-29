@@ -1,3 +1,13 @@
+/*Better Colors For Buttons*/
+
+.colorDanger-2qLCe1.focused-3afm-j {
+  background-color: #d52b27;
+}
+
+.colorBrand-ROmMP1:hover {
+  background-color: #435ad0;
+}
+
 /*It's The Outline Friends DM Hover*/
 
 .clickable-1JJAn8:hover .layout-2DM8Md {
@@ -53,30 +63,6 @@
   box-shadow: none;
   border-radius: 6px;
   border: 2px solid rgba(255,255,255,.3);
-}
-
-/*This Makes The Leave Button More Red*/
-
-.item-1Yvehc.danger-2dXSTE, 
-.theme-dark .item-1GzJrl.leave-1DRJfn {
-  color: #d52b27;
-}
-.item-1Yvehc.danger-2dXSTE:hover,
-.theme-dark .item-1GzJrl:hover.leave-1DRJfn{
-  background-color: #d52b27;
-  color: white;
-}
-
-/*This Makes The Invite People Button More Blue*/
-
-.item-1Yvehc.brand-3igrJY,
-.theme-dark .item-1GzJrl.invite-271nFU{
-  color: #435ad0;
-}
-.item-1Yvehc.brand-3igrJY:hover,
-.theme-dark .item-1GzJrl:hover.invite-271nFU {
-  color: white;
-  background-color: #435ad0;
 }
 
 /*This Makes The Highlight On The Option Menus*/
