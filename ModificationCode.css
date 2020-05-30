@@ -8,19 +8,34 @@
   background-color: #435ad0;
 }
 
-/*It's The Outline Friends DM Hover*/
+/*It's The Outline For The GC Members**/
 
-.clickable-1JJAn8:hover .layout-2DM8Md {
+div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
+  border: 1px solid rgba(120, 157, 191, 1);
+  border-radius: 9px;
+}
+
+.clickable-1JJAn8:hover .activity-2Gy-9S {
+  color: rgba(120, 157, 191, .7);
+}
+
+div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
+  color: rgba(120, 157, 191, .7);
+}
+
+/*It's The Outline For The Friends DM*/
+
+#private-channels .clickable-1JJAn8:hover .layout-2DM8Md {
   border: 2px dotted rgba(120, 157, 191, 1);
   border-radius: 9px;
 }
 
-.clickable-1JJAn8:hover .name-uJV0GL {
+#private-channels .clickable-1JJAn8:hover .name-uJV0GL {
   color: #789dbf;
 }
 
 .clickable-1JJAn8:hover .subtext-1RtU34 {
-  color: rgba(120, 157, 191, 1);
+  color: rgba(120, 157, 191, .7);
 }
 
 /*It's The Outline Server Channel Hover*/
@@ -35,7 +50,8 @@
 .selected-aXhQR6 .layout-2DM8Md {
   background-color: rgba(0,0,0,.9);
   color: #789dbf;
-  border: 1px solid #789dbf;
+  border: 2px solid #789dbf;
+  border-radius: 9px;
 }
 
 /*Colors on the Sidebar*/
@@ -148,10 +164,35 @@
   border-radius: 20px;
 }
 
-/*This Changes The Font*/
+/*This Makes The Logout Button Red*/
 
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+.side-8zPYf6 .item-PXvHYJ[style*="color: rgb(240, 71, 71); background-color: rgba(240, 71, 71, 0.1);"] {
+  background-color: #d52a2771 !important;
+}
 
-body * {
-    font-family: 'Handlee', cursive;
+/*This Makes The Settings Buttons Rounder*/
+
+.side-8zPYf6 .item-PXvHYJ {
+  border-radius: 9px !important;
+}
+#bd-settings-sidebar .ui-tab-bar-item{
+ border-radius: 9px !important;
+}
+
+/*This Is For The Settings Exit Button*/
+
+.theme-dark .closeButton-1tv5uR {
+  border-color: transparent !important;
+}
+.theme-dark .closeButton-1tv5uR:hover {
+  background-color: rgba(0, 0, 0, .5) !important;
+}
+
+/*This Makes The Notifications Cleaner*/
+
+.unread-3zKkbm {
+  display: none;
+}
+.theme-dark .wrapper-1ucjTd.modeUnread-1zpFdA .icon-1_QxNX {
+     color: white;
 }
