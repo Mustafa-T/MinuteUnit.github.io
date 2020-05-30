@@ -196,3 +196,11 @@ div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
 .theme-dark .wrapper-1ucjTd.modeUnread-1zpFdA .icon-1_QxNX {
      color: white;
 }
+
+/*This Changes The Font To Handlee*/
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+body * {
+    font-family: 'Handlee', cursive;
+}
