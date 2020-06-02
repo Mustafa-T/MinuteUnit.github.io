@@ -1977,3 +1977,9 @@ body>div:last-of-type {
 .styleFixed-sX-yHV {
     background: rgba(6, 6, 6, 0.9);
 }
+
+.item-PXvHYJ[style="color: rgb(255, 255, 255);background-color: rgb(114, 137, 218);"] {
+    border: 2px solid #789dbf !important;
+    background-color: black !important;
+    color: white !important;
+  }
