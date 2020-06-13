@@ -219,6 +219,42 @@ div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
   color: white !important;
 }
 
+  /*This Makes The Settings Menu Cleaner*/
+
+  .item-PXvHYJ:hover {
+    border: 2px dotted #789dbf;
+    color: #789dbf !important;
+    background-color: rgba(225, 255, 255, 0.15) !important;
+  }
+  .selected-3s45Ha:hover {
+    color: white !important;
+    background-color: black !important;
+  }
+  .selected-3s45Ha {
+    border: 2px solid #789dbf !important;
+    background-color: black !important;
+    color: white !important;
+  }
+  .item-PXvHYJ[role*= "button"][style*="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"]:hover {
+    color: #789dbf !important;
+    background-color: rgba(255, 255, 255, 0.15) !important;
+  }
+  .item-PXvHYJ[role*= "button"][tabindex*="0"][style*="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
+    border: 2px solid #789dbf;
+    color: white !important;
+    background-color: black !important;
+  }
+  #bd-settings-sidebar .ui-tab-bar-item:hover {
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    border: 2px dotted #789dbf !important;
+    color: #789dbf !important;
+  }
+  #bd-settings-sidebar .ui-tab-bar-item.selected {
+    border: 2px solid #789dbf !important;
+    background-color: black !important;
+    color: white !important;
+  }
+
 /*This Changes The Font To Handlee*/
 
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
