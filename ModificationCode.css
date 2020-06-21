@@ -1,3 +1,108 @@
+/*This Changes The Font To Handlee*/
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+ body * {
+  font-family: 'Handlee', cursive;
+}
+
+:root {
+  /*
+  Change the theme background
+  Default: https://i.imgur.com/Zm9Mocr.jpg
+  */
+  --background-image: url(https://i.imgur.com/Zm9Mocr.jpg);
+
+  /*
+  Change your friends icon image
+  Default: https://i.imgur.com/VoFMixr.jpg
+  */
+  --friends-icon: url(https://i.imgur.com/VoFMixr.jpg);
+
+  /*
+  Change your friends icon iamge position
+  Default: center center
+  */
+  --friends-icon-position: center center;
+
+  /*
+  Change your friends icon image zoom
+  Default: 125% 
+  */
+  --friends-icon-zoom: 125%;
+
+  /*
+  Change the main theme color
+  Default: rgb(67, 181, 129)
+  */
+  --main-color: rgb(67, 181, 129);
+
+  /*
+  Change global transparency
+  You can use this to make your background image lighter or darker
+  Default: rgba(0, 0, 0, 0.8)
+  */
+  --main-transparency: rgba(0, 0, 0, 0.8);
+
+  /*
+  Change the unread server animation.
+  Replace it with "none" in order to remove any animations and use the main color instead
+  Default: rainbow
+  */
+  --unread-server-animation: rainbow;
+
+  /*
+  Change background color when you hover members or friends
+  Default: rgba(255, 255, 255, .15)
+  */
+  --hover-list-bg-color: rgba(255, 255, 255, 0);
+
+  /*
+  Change the color of the borders between messages
+  Default: hsla(0,0%,100%,.1)
+  */
+  --border-lines-color: hsla(0,0%,100%,.1);
+
+  /*
+  Change the scroll bar color
+  Default: rgba(255,255,255, .15)
+  */
+  --scroll-bar-color: rgba(255,255,255, .15);
+
+  /*
+  Change chat messages font size, you can use any unit: px, em, rem, %
+  Default: 16px
+  */
+  --font-size: 16px;
+
+  /*
+  Change the text color of a selected text channel or joined voice channel
+  Default: #f6f6f7
+  */
+  --selected-text-voice-color: #f6f6f7;
+
+  /*
+  Change the text color of a hovered text or voice channel
+  Default: rgba(255, 255, 255, 0.75)
+  */
+  --channel-hover-text-color: rgba(255, 255, 255, 0.75);
+
+
+  /*
+  Change the text color of an unread text channel
+  Default: #dcddde
+  */
+  --unread-text-color: #dcddde;
+
+
+  /*
+  Change the transparency of the user popout when clicking a member
+  Default: rgba(0, 0, 0, 0.8)
+  */
+  --user-popup-background: rgba(0, 0, 0, 0.8);
+}
+
+
 /*Better Colors For Buttons*/
 
 .colorDanger-2qLCe1.focused-3afm-j {
@@ -283,18 +388,9 @@ div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
 
 /*This Causes The Difference In Transparency*/
 
-.theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG,  .header-2o-2hj, .title-3qD0b-, .container-1giJp5, .container-3baos1 {
+.theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG,  .header-2o-2hj, .title-3qD0b-, .container-1giJp5, .container-3baos1, .searchBar-6Kv8R2 {
   background-color: rgba(0, 0, 0, 0.2) !important;
 }
-
 .typeWindows-1za-n7 {
   background-color: rgba(0, 0, 0, 0.84);
-}
-
-/*This Changes The Font To Handlee*/
-
-@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
-
- body * {
-  font-family: 'Handlee', cursive;
 }
