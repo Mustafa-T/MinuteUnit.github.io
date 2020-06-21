@@ -291,10 +291,10 @@ div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
   background-color: rgba(0, 0, 0, 0.84);
 }
 
-  /*This Changes The Font To Handlee*/
+/*This Changes The Font To Handlee*/
 
-  @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
-  body * {
-    font-family: 'Handlee', cursive;
+ body * {
+  font-family: 'Handlee', cursive;
 }
