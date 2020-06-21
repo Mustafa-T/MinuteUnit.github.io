@@ -281,6 +281,16 @@ div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
   color: white !important;
 }
 
+/*This Causes The Difference In Transparency*/
+
+.theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG,  .header-2o-2hj, .title-3qD0b-, .container-1giJp5, .container-3baos1 {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.typeWindows-1za-n7 {
+  background-color: rgba(0, 0, 0, 0.84);
+}
+
   /*This Changes The Font To Handlee*/
 
   @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
