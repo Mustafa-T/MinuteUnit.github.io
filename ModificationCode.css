@@ -362,7 +362,6 @@ div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
 .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218); background-color: rgba(114, 137, 218, 0.1);"] {
   background-color: rgba(225, 225, 225, 0.15) !important;
 }
-
 .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218); background-color: rgba(114, 137, 218, 0.1);"]:hover {
   color: #789dbf !important;
   border: 2px dotted #789dbf !important;
@@ -384,6 +383,17 @@ div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
   border: 2px solid #789dbf !important;
   background-color: black !important;
   color: white !important;
+}
+.tabBarItem-1b8RUP:hover {
+  border: none;
+  background-color: #202225 !important;
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+.tabBarItem-1b8RUP.selected-3s45Ha {
+  color: white !important;
+  border: none !important;
+  background-color: #202225 !important;
+  border-bottom: 2px solid white !important;
 }
 
 /*This Causes The Difference In Transparency*/
