@@ -172,6 +172,9 @@ div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
 .channel-2QD9_O.clickable-1JJAn8[aria-posinset="1"] .layout-2DM8Md, .channel-2QD9_O.clickable-1JJAn8[aria-posinset="2"] .layout-2DM8Md {
   color: #8e9297 !important;
 }
+.channel-2QD9_O.clickable-1JJAn8[aria-posinset="1"] .layout-2DM8Md:hover, .channel-2QD9_O.clickable-1JJAn8[aria-posinset="2"] .layout-2DM8Md:hover {
+  color: #789dbf !important;
+}
 
 /*It's The Outline Server Channel Hover*/
 
