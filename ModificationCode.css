@@ -108,7 +108,6 @@
 .colorDanger-2qLCe1.focused-3afm-j {
   background-color: #d52b27;
 }
-
 .colorBrand-ROmMP1:hover {
   background-color: #435ad0;
 }
@@ -119,11 +118,9 @@ div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
   border: 1px solid rgba(120, 157, 191, 1);
   border-radius: 9px;
 }
-
 .clickable-1JJAn8:hover .activity-2Gy-9S {
   color: rgba(120, 157, 191, .7);
 }
-
 div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
   color: rgba(120, 157, 191, .7);
 }
@@ -134,49 +131,46 @@ div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
   border: 2px dotted rgba(120, 157, 191, 1);
   border-radius: 9px;
 }
-
 #private-channels .clickable-1JJAn8:hover .name-uJV0GL {
   color: #789dbf;
 }
-
 .clickable-1JJAn8:hover .subtext-1RtU34 {
   color: rgba(120, 157, 191, .7);
 }
-
 .item-3HknzM[style*="background-color: rgb(67, 181, 129); color: rgb(255, 255, 255);"]:hover {
   background-color: rgb(67, 181, 129) !important;
   color: rgb(255, 255, 255) !important;
   border: 2px dotted blueviolet !important;
 }
-
 .item-3HknzM[style*="background-color: rgb(67, 181, 129); color: rgb(255, 255, 255);"] {
   color: white !important;
 }
-
 .item-3HknzM[style="background-color: rgba(67, 181, 129, 0.2); color: rgb(67, 181, 129);"] {
   background-color: rgb(67, 181, 129) !important;
   color: rgb(255, 255, 255) !important;
   border: 2px solid blueviolet !important;
 }
-
 .item-3HknzM[style="background-color: rgba(67, 181, 129, 0.2); color: rgb(67, 181, 129);"]:hover {
   background-color: rgb(67, 181, 129) !important;
   color: white !important;
 }
-
 .lookFilled-1Gx00P.colorBrand-3pXr91, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
   color: #fff;
   background-color: #789dbf;
 }
-
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
   color: #fff;
   background-color: #789dbf;
   border: 2px dotted purple;
 }
-
 .lookFilled-1Gx00P.colorBrand-3pXr91:disabled:hover {
   border: none !important;
+}
+.channel-2QD9_O[aria-posinset="1"] .layout-2DM8Md, .channel-2QD9_O[aria-posinset="2"] .layout-2DM8Md {
+  color: white !important;
+}
+.channel-2QD9_O.clickable-1JJAn8[aria-posinset="1"] .layout-2DM8Md, .channel-2QD9_O.clickable-1JJAn8[aria-posinset="2"] .layout-2DM8Md {
+  color: #8e9297 !important;
 }
 
 /*It's The Outline Server Channel Hover*/
