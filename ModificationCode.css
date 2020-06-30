@@ -399,8 +399,8 @@ border: none !important;
 .container-3baos1, .searchBar-6Kv8R2, .nowPlayingScroller-2XrVUt, .container-1r6BKw {
 background-color: rgba(0, 0, 0, 0.2) !important;
 }
-.scrollerWrap-2lJEkd.scrollerThemed-2oenus.themeGhostHairline-DBD-2d.scrollerFade-1Ijw5y {
-background-color: rgba(0, 0, 0, 0.05) !important;
+.container-3baos1 {
+  border-top: 1px solid #789dbf;
 }
 .typeWindows-1za-n7 {
 background-color: rgba(0, 0, 0, 0.84);
