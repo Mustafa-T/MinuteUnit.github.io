@@ -393,11 +393,11 @@ svg.icon-22AiRD {
 
 /*This Causes The Difference In Transparency*/
 
-.scroller-2wx7Hm, .scroller-2TZvBN, .scroller-1JbKMe, .header-2o-2hj, .title-3qD0b-, .container-1giJp5,
-.container-3baos1, .searchBar-6Kv8R2, .nowPlayingScroller-2XrVUt, .container-1r6BKw {
+.scroller-2wx7Hm, .scroller-2TZvBN, .scroller-1JbKMe, .header-2o-2hj, .title-3qD0b-, .members-1998pB,
+.container-1giJp5, .container-3baos1, .searchBar-6Kv8R2, .nowPlayingScroller-2XrVUt, .container-1r6BKw {
   background-color: rgba(0, 0, 0, 0.2) !important;
 }
-.container-3baos1 {
+.container-3baos1, .container-1giJp5 {
   border-top: 1px solid #789dbf;
 }
 .typeWindows-1za-n7 {
