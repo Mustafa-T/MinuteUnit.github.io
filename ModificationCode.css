@@ -291,7 +291,7 @@ svg.icon-22AiRD {
 
 /*Makes The Tooltips Look Better*/
 
-.theme-dark .tooltip-2QfLtc {
+.theme-dark .tooltip-2QfLtc, .colorMuted-HdFt4q {
   box-shadow: none;
   color: white;
 }
@@ -396,13 +396,12 @@ svg.icon-22AiRD {
 
 /*This Causes The Difference In Transparency*/
 
-.scroller-2wx7Hm, .scroller-2TZvBN, .scroller-1JbKMe, .header-2o-2hj, .title-3qD0b-, .members-1998pB,
-.container-1giJp5, .container-3baos1, .searchBar-6Kv8R2, .nowPlayingScroller-2XrVUt, .container-1r6BKw {
+.scroller-2TZvBN, .title-3qD0b-, .members-1998pB, .nowPlayingScroller-2XrVUt, .container-1r6BKw {
   background-color: rgba(0, 0, 0, 0.2) !important;
 }
-.container-3baos1, .container-1giJp5 {
+.container-3baos1, .container-1giJp5, .panel-24C3ux {
   border-top: 1px solid #789dbf;
 }
-.typeWindows-1za-n7 {
-  background-color: rgba(0, 0, 0, 0.84);
+.typeWindows-1za-n7, .sidebar-2K8pFh {
+  background-color: rgba(0, 0, 0, 0.84) !important;
 }
