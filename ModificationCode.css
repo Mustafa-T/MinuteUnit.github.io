@@ -425,6 +425,10 @@ svg.icon-22AiRD {
   background-color: rgba(0, 0, 0, 0.01) !important;
   border: 1px solid blueviolet !important;
 }
+.searchResult-9tQ1uo {
+  border-top: 2px solid #789dbf !important;
+  border-bottom: 2px solid #789dbf !important;
+}
 .highlight {
   background-color: blueviolet !important;
 }
