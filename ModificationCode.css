@@ -411,11 +411,22 @@ svg.icon-22AiRD {
 
 /*This Causes The Difference In Transparency*/
 
-.scroller-2TZvBN, .title-3qD0b-, .members-1998pB, .nowPlayingScroller-2XrVUt, .container-1r6BKw {
+.scroller-2TZvBN, .title-3qD0b-, .members-1998pB, .nowPlayingScroller-2XrVUt, .container-1r6BKw, .scroller-3GIiMh, .searchHeader-2XoQg7 {
   background-color: rgba(0, 0, 0, 0.2) !important;
 }
 .container-3baos1, .container-1giJp5, .panel-24C3ux {
   border-top: 1px solid #789dbf;
+}
+.channelName-1JRO3C, .searchResult-9tQ1uo {
+  background-color: rgba(0, 0, 0, 0.01) !important;
+  border: none !important;
+}
+.searchResultMessage-1fxgXh.hit-1fVM9e  {
+  background-color: rgba(0, 0, 0, 0.01) !important;
+  border: 1px solid blueviolet !important;
+}
+.highlight {
+  background-color: blueviolet !important;
 }
 .typeWindows-1za-n7, .sidebar-2K8pFh {
   background-color: rgba(0, 0, 0, 0.84) !important;
