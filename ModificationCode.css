@@ -121,6 +121,21 @@ div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
 div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
   color: rgba(120, 157, 191, .7);
 }
+.member-3-YXUe {
+  border-radius: 9px;
+}
+.member-3-YXUe.clickable-1JJAn8:hover {
+  border: 2px dotted rgba(120, 157, 191, 1);
+}
+.member-3-YXUe.selected-aXhQR6:hover {
+  border: none !important;
+}
+.member-3-YXUe.clickable-1JJAn8:hover .activityText-yGKsKm {
+  color: #8e9297;
+}
+.member-3-YXUe.selected-aXhQR6 .activityText-yGKsKm {
+  color: white;
+}
 
 /*It's The Outline For The Friends DM*/
 
@@ -291,7 +306,7 @@ svg.icon-22AiRD {
 
 /*Makes The Tooltips Look Better*/
 
-.theme-dark .tooltip-2QfLtc, .colorMuted-HdFt4q {
+.theme-dark .tooltip-2QfLtc, .colorMuted-HdFt4q, .theme-dark .activityIcon-c4ew_N {
   box-shadow: none;
   color: white;
 }
@@ -383,14 +398,14 @@ svg.icon-22AiRD {
   background-color: black !important;
   color: #ff0400 !important;
   border: 2px solid blueviolet !important;
-}
-.theme-dark .bd-addon-list .bd-addon-card {
-  border: 1px solid #789dbf;
+  font-weight: bold !important;
 }
 #bd-settingspane-container .ui-switch-item {
   background-color: rgba(0, 0, 0, 0.6) !important;
+  border: 2px solid #789dbf;
+  border-radius: 9px;
 }
-.bd-addon-header, .bd-card-footer {
+.bd-addon-header, .bd-card-footer, .ui-form-text {
   border: none !important;
 }
 
