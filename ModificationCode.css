@@ -146,6 +146,12 @@ div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
 #private-channels .clickable-1JJAn8:hover .name-uJV0GL {
   color: #789dbf;
 }
+#private-channels .highlighted-1gWxXa.clickable-1JJAn8 .layout-2DM8Md .name-uJV0GL {
+  color: white !important;
+}
+#private-channels .highlighted-1gWxXa.clickable-1JJAn8 .layout-2DM8Md {
+  border-color: white !important;
+}
 .clickable-1JJAn8:hover .subtext-1RtU34 {
   color: rgba(120, 157, 191, .7);
 }
@@ -287,7 +293,7 @@ svg.icon-22AiRD {
   background-color: black;
 }
 .scroller-2wx7Hm::-webkit-scrollbar-thumb {
-  background-color: blue !important;
+  background-color: blue;
 }
 
 /*This Makes The Emoji Picker Look Better*/
@@ -438,6 +444,7 @@ svg.icon-22AiRD {
 
 /*Me Trying Not To Make Changes In The Important Code LUL*/
 
-.wrapper-CU3qI5.muted-1NRuDm:hover .icon-WnO6o2, .wrapper-CU3qI5.muted-1NRuDm:hover .name-IbjUBS, .wrapper-CU3qI5:hover .icon-WnO6o2, .wrapper-CU3qI5:hover .name-IbjUBS {
+.wrapper-CU3qI5.muted-1NRuDm:hover .icon-WnO6o2, .wrapper-CU3qI5.muted-1NRuDm:hover .name-IbjUBS,
+.wrapper-CU3qI5:hover .icon-WnO6o2, .wrapper-CU3qI5:hover .name-IbjUBS {
   filter: brightness(130%);
 }
