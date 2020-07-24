@@ -9,15 +9,16 @@
 :root {
   /*
   Change the theme background
-  Default: https://i.imgur.com/Zm9Mocr.jpg
+  Images: https://i.imgur.com/Zm9Mocr.jpg
   */
   --background-image: url(https://i.imgur.com/Zm9Mocr.jpg);
 
   /*
   Change your friends icon image
-  Default: https://i.imgur.com/VoFMixr.jpg
+  Images: https://i.imgur.com/VoFMixr.jpg
+          https://i.imgur.com/f61Drhi.jpg
   */
-  --friends-icon: url(https://i.imgur.com/VoFMixr.jpg);
+  --friends-icon: url(https://i.imgur.com/f61Drhi.jpg);
 
   /*
   Change your friends icon iamge position
@@ -27,15 +28,15 @@
 
   /*
   Change your friends icon image zoom
-  Default: 125% 
+  Default: 100% 
   */
-  --friends-icon-zoom: 125%;
+  --friends-icon-zoom: 100%;
 
   /*
   Change the main theme color
   Default: rgb(67, 181, 129)
   */
-  --main-color: rgb(67, 181, 129);
+  --main-color: #789dbf;
 
   /*
   Change global transparency
@@ -103,354 +104,354 @@
 /*Better Colors For Buttons*/
 
 .colorDanger-2qLCe1.focused-3afm-j {
-  background-color: #d52b27;
+background-color: #d52b27;
 }
 .colorBrand-ROmMP1:hover {
-  background-color: #435ad0;
+background-color: #435ad0;
 }
 
 /*It's The Outline For The GC Members**/
 
 div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
-  border: 1px solid rgba(120, 157, 191, 1);
-  border-radius: 9px;
+border: 1px solid rgba(120, 157, 191, 1);
+border-radius: 9px;
 }
 .clickable-1JJAn8:hover .activity-2Gy-9S {
-  color: rgba(120, 157, 191, .7);
+color: rgba(120, 157, 191, .7);
 }
 div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
-  color: rgba(120, 157, 191, .7);
+color: rgba(120, 157, 191, .7);
 }
 .member-3-YXUe {
-  border-radius: 9px;
+border-radius: 9px;
 }
 .member-3-YXUe.clickable-1JJAn8:hover {
-  border: 2px dotted rgba(120, 157, 191, 1);
+border: 2px dotted rgba(120, 157, 191, 1);
 }
 .member-3-YXUe.selected-aXhQR6:hover {
-  border: none !important;
+border: none !important;
 }
 .member-3-YXUe.clickable-1JJAn8:hover .activityText-yGKsKm {
-  color: #8e9297;
+color: #8e9297;
 }
 .member-3-YXUe.selected-aXhQR6 .activityText-yGKsKm {
-  color: white;
+color: white;
 }
 
 /*It's The Outline For The Friends DM*/
 
 #private-channels .clickable-1JJAn8:hover .layout-2DM8Md {
-  border: 2px dotted rgba(120, 157, 191, 1);
-  border-radius: 9px;
+border: 2px dotted rgba(120, 157, 191, 1);
+border-radius: 9px;
 }
 #private-channels .clickable-1JJAn8:hover .name-uJV0GL {
-  color: #789dbf;
+color: #789dbf;
 }
 #private-channels .highlighted-1gWxXa.clickable-1JJAn8 .layout-2DM8Md .name-uJV0GL {
-  color: white !important;
+color: white !important;
 }
 #private-channels .highlighted-1gWxXa.clickable-1JJAn8 .layout-2DM8Md {
-  border-color: white !important;
+border-color: white !important;
 }
 #private-channels .highlighted-1gWxXa.clickable-1JJAn8 .layout-2DM8Md .activityText-OW8WYb { 
-  color: white !important;
+color: white !important;
 }
 .clickable-1JJAn8:hover .subtext-1RtU34 {
-  color: rgba(120, 157, 191, .7);
+color: rgba(120, 157, 191, .7);
 }
 .clickable-1JJAn8:hover .activity-2Gy-9S {
-  color: #dcddde !important;
+color: #dcddde !important;
 }
 .item-3HknzM[style*="background-color: rgb(67, 181, 129); color: rgb(255, 255, 255);"]:hover {
-  background-color: rgb(67, 181, 129) !important;
-  color: rgb(255, 255, 255) !important;
-  border: 2px dotted blueviolet !important;
+background-color: rgb(67, 181, 129) !important;
+color: rgb(255, 255, 255) !important;
+border: 2px dotted blueviolet !important;
 }
 .item-3HknzM[style*="background-color: rgb(67, 181, 129); color: rgb(255, 255, 255);"] {
-  color: white !important;
+color: white !important;
 }
 .item-3HknzM[style="background-color: rgba(67, 181, 129, 0.2); color: rgb(67, 181, 129);"] {
-  background-color: rgb(67, 181, 129) !important;
-  color: rgb(255, 255, 255) !important;
-  border: 2px solid blueviolet !important;
+background-color: rgb(67, 181, 129) !important;
+color: rgb(255, 255, 255) !important;
+border: 2px solid blueviolet !important;
 }
 .item-3HknzM[style="background-color: rgba(67, 181, 129, 0.2); color: rgb(67, 181, 129);"]:hover {
-  background-color: rgb(67, 181, 129) !important;
-  color: white !important;
+background-color: rgb(67, 181, 129) !important;
+color: white !important;
 }
 svg.icon-22AiRD {
-  color: white !important;
+color: white !important;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91, .lookFilled-1Gx00P.colorBrand-3pXr91:disabled {
-  color: #fff;
-  background-color: #789dbf;
+color: #fff;
+background-color: #789dbf;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
-  color: #fff;
-  background-color: #789dbf;
-  border: 2px dotted purple;
+color: #fff;
+background-color: #789dbf;
+border: 2px dotted purple;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:disabled:hover {
-  border: none !important;
+border: none !important;
 }
 .channel-2QD9_O[aria-posinset="1"] .layout-2DM8Md, .channel-2QD9_O[aria-posinset="2"] .layout-2DM8Md {
-  color: white !important;
+color: white !important;
 }
 .channel-2QD9_O.clickable-1JJAn8[aria-posinset="1"] .layout-2DM8Md, .channel-2QD9_O.clickable-1JJAn8[aria-posinset="2"] .layout-2DM8Md {
-  color: #8e9297 !important;
+color: #8e9297 !important;
 }
 .channel-2QD9_O.clickable-1JJAn8[aria-posinset="1"] .layout-2DM8Md:hover, 
 .channel-2QD9_O.clickable-1JJAn8[aria-posinset="2"] .layout-2DM8Md:hover {
-  color: #789dbf !important;
+color: #789dbf !important;
 }
 
 /*It's The Outline Server Channel Hover*/
 
 .content-3at_AU:hover {
-  border: 2px dotted rgba(120, 157, 191, 1);
-  border-radius: 9px;
+border: 2px dotted rgba(120, 157, 191, 1);
+border-radius: 9px;
 }
 
 /*It's the Outline*/
 
 .selected-aXhQR6 .layout-2DM8Md {
-  background-color: rgba(0,0,0,.9);
-  color: #789dbf;
-  border: 2px solid #789dbf;
-  border-radius: 9px;
+background-color: rgba(0,0,0,.9);
+color: #789dbf;
+border: 2px solid #789dbf;
+border-radius: 9px;
 }
 
 /*Colors on the Sidebar*/
 
 .item-2hkk8m {
-  border: 2px solid rgba(255,255,255,.3);
-  background-color: blueviolet;
+border: 2px solid rgba(255,255,255,.3);
+background-color: blueviolet;
 }
 
 /*It's the Date Format*/
 
 .divider-JfaTT5 {
-  border: none !important;
+border: none !important;
 }
 #app-mount .content-1o0f9g {
-  color: silver;
-  background-color: rgba(255,255,255,.12);
-  padding: 4px 7px;
+color: silver;
+background-color: rgba(255,255,255,.12);
+padding: 4px 7px;
 }
 
 /*This is the Context Menu*/
 
 .contextMenu-HLZMGh {
-  background: black;
-  box-shadow: none;
-  border-radius: 6px;
-  border: 2px solid rgba(255,255,255,.3);
+background: black;
+box-shadow: none;
+border-radius: 6px;
+border: 2px solid rgba(255,255,255,.3);
 }
 
 /*This Makes The Highlight On The Option Menus*/
 
 .clickable-11uBi-:hover, 
 .selected-BYpGTS {
-  background: #789dbf;
+background: #789dbf;
 }
 
 /*This Makes The Notifications Pop*/
 
 .numberBadge-2s8kKX {
-  background-color: black !important;
-  height: 27px;
-  width: 27px !important;
-  margin-bottom: -1px;
-  margin-right: 1px;
-  border-radius: 50%;
-  border: 2px solid #789dbf
+background-color: black !important;
+height: 27px;
+width: 27px !important;
+margin-bottom: -1px;
+margin-right: 1px;
+border-radius: 50%;
+border: 2px solid #789dbf
 }
 .unread-3zKkbm {
-  display: none;
+display: none;
 }
 .theme-dark .wrapper-1ucjTd.modeUnread-1zpFdA .icon-1_QxNX {
-  color: white;
+color: white;
 }
 
 /*This Makes The Tabs Fade*/
 
 .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .theme-dark .wrapper-1ucjTd.modeSelected-1zApJ_:hover .content-3at_AU,
 .theme-dark .listDefault-2y5Z9D .clickable-23RaYz.selected-3TGCSZ .content-3xS9Lh {
-  background: linear-gradient(270deg, transparent 30%, rgba(120, 157, 191,1) 100%);
-  border: 1px solid #789dbf;
+background: linear-gradient(270deg, transparent 30%, rgba(120, 157, 191,1) 100%);
+border: 1px solid #789dbf;
 }
 
 /*This Makes The Tabs Round*/
 
 .content-3at_AU {
-  border-radius: 9px;
+border-radius: 9px;
 }
 
 /*This Makes The ScrollBars Pop*/
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-  background-color: blue;
+background-color: blue;
 }
 .theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb {
-  background-color: blue;
+background-color: blue;
 }
 .scroller-2wx7Hm::-webkit-scrollbar-thumb {
-  background-color: blue;
+background-color: blue;
 }
 
 /*This Makes The Emoji Picker Look Better*/
 
 .emojiPicker-3PwZFl .header-8ilj5e {
-  border: none;
-  box-shadow: none;
+border: none;
+box-shadow: none;
 }
 .inspector-sdLnLS {
-  background: none;
+background: none;
 }
 .contentWrapper-2txmjs {
-  background-color: rgba(0,0,0,0.8);
-  border: none;
+background-color: rgba(0,0,0,0.8);
+border: none;
 }
 
 /*Makes The Tooltips Look Better*/
 
 .theme-dark .tooltip-2QfLtc, .colorMuted-HdFt4q, .theme-dark .activityIcon-c4ew_N {
-  box-shadow: none;
-  color: white;
+box-shadow: none;
+color: white;
 }
 .theme-dark .tooltipBlack-PPG47z {
-  background-color: #789dbf;
+background-color: #789dbf;
 }
 .icon-KgGMGo,
 .button-1ZiXG9 {
-  color: white;
+color: white;
 }
 .toolbar-2bjZV7 {
-  background-color: #789dbf;
-  border-radius: 0;
-  box-shadow: none;
+background-color: #789dbf;
+border-radius: 0;
+box-shadow: none;
 }
 .wrapper-2aW0bm {
-  background-color: #789dbf;
-  border-radius: 20px;
+background-color: #789dbf;
+border-radius: 20px;
 }
 
 /*This Makes The Settings Menu Cleaner*/
 
 .themed-OHr7kt:hover {
-  border: 2px dotted #789dbf;
-  color: #789dbf !important;
-  background-color: rgba(225, 255, 255, 0.15) !important;
+border: 2px dotted #789dbf;
+color: #789dbf !important;
+background-color: rgba(225, 255, 255, 0.15) !important;
 }
 .selected-3s45Ha:hover {
-  color: white !important;
-  background-color: black !important;
+color: white !important;
+background-color: black !important;
 }
 .selected-3s45Ha {
-  border: 2px solid #789dbf !important;
-  background-color: black !important;
-  color: white !important;
+border: 2px solid #789dbf !important;
+background-color: black !important;
+color: white !important;
 }
 .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218);"] {
-  color: #b9bbbe !important;
+color: #b9bbbe !important;
 }
 .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218); background-color: rgba(114, 137, 218, 0.1);"] {
-  background-color: rgba(225, 225, 225, 0.15) !important;
+background-color: rgba(225, 225, 225, 0.15) !important;
 }
 .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(114, 137, 218); background-color: rgba(114, 137, 218, 0.1);"]:hover {
-  color: #789dbf !important;
-  border: 2px dotted #789dbf !important;
+color: #789dbf !important;
+border: 2px dotted #789dbf !important;
 }
 .item-PXvHYJ[role*= "button"][tabindex*="0"][style*="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
-  border: 2px solid #789dbf;
-  color: white !important;
-  background-color: black !important;
+border: 2px solid #789dbf;
+color: white !important;
+background-color: black !important;
 }
 .item-PXvHYJ[role*= "button"][tabindex*="0"][style*="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"]:hover {
-  cursor: default !important;
+cursor: default !important;
 }
 #bd-settings-sidebar .ui-tab-bar-item:hover {
-  background-color: rgba(255, 255, 255, 0.15) !important;
-  border: 2px dotted #789dbf !important;
-  color: #789dbf !important;
+background-color: rgba(255, 255, 255, 0.15) !important;
+border: 2px dotted #789dbf !important;
+color: #789dbf !important;
 }
 #bd-settings-sidebar .ui-tab-bar-item.selected {
-  border: 2px solid #789dbf !important;
-  background-color: black !important;
-  color: white !important;
+border: 2px solid #789dbf !important;
+background-color: black !important;
+color: white !important;
 }
 .tabBarItem-1b8RUP:hover {
-  border: none;
-  background-color: #202225 !important;
-  color: rgba(255, 255, 255, 0.8) !important;
+border: none;
+background-color: #202225 !important;
+color: rgba(255, 255, 255, 0.8) !important;
 }
 .tabBarItem-1b8RUP.selected-3s45Ha {
-  color: white !important;
-  border: none !important;
-  background-color: #202225 !important;
-  border-bottom: 2px solid white !important;
+color: white !important;
+border: none !important;
+background-color: #202225 !important;
+border-bottom: 2px solid white !important;
 }
 .side-8zPYf6 .item-PXvHYJ {
-  border-radius: 9px !important;
+border-radius: 9px !important;
 }
 #bd-settings-sidebar .ui-tab-bar-item{
-  border-radius: 9px !important;
+border-radius: 9px !important;
 }
 .theme-dark .closeButton-1tv5uR {
-  border-color: transparent !important;
+border-color: transparent !important;
 }
 .theme-dark .closeButton-1tv5uR:hover {
-  background-color: rgba(0, 0, 0, .5) !important;
+background-color: rgba(0, 0, 0, .5) !important;
 }
 .side-8zPYf6 .item-PXvHYJ[style*="color: rgb(240, 71, 71); background-color: rgba(240, 71, 71, 0.1);"] {
-  background-color: black !important;
-  color: #ff0400 !important;
-  border: 2px solid blueviolet !important;
-  font-weight: bold !important;
+background-color: black !important;
+color: #ff0400 !important;
+border: 2px solid blueviolet !important;
+font-weight: bold !important;
 }
 #bd-settingspane-container .ui-switch-item {
-  background-color: rgba(0, 0, 0, 0.6) !important;
-  border: 2px solid #789dbf;
-  border-radius: 9px;
+background-color: rgba(0, 0, 0, 0.6) !important;
+border: 2px solid #789dbf;
+border-radius: 9px;
 }
 .bd-addon-header, .bd-card-footer, .ui-form-text {
-  border: none !important;
+border: none !important;
 }
 
 /*This Causes The Difference In Transparency*/
 
 .scroller-2TZvBN, .members-1998pB, .nowPlayingScroller-2XrVUt, .container-1r6BKw,
 .scroller-3GIiMh, .searchHeader-2XoQg7, .title-3qD0b-, .root-217Brm {
-  background-color: rgba(0, 0, 0, 0.2) !important;
+background-color: rgba(0, 0, 0, 0.2) !important;
 }
 .root-217Brm .title-3qD0b- {
-  background-color: transparent !important;
+background-color: transparent !important;
 }
 .container-3baos1, .container-1giJp5, .panel-24C3ux {
-  border-top: 1px solid #789dbf;
+border-top: 1px solid #789dbf;
 }
 .channelName-1JRO3C, .searchResult-9tQ1uo {
-  background-color: rgba(0, 0, 0, 0.01) !important;
-  border: none !important;
+background-color: rgba(0, 0, 0, 0.01) !important;
+border: none !important;
 }
 .searchResultMessage-1fxgXh.hit-1fVM9e  {
-  background-color: rgba(0, 0, 0, 0.01) !important;
-  border: 1px solid blueviolet !important;
+background-color: rgba(0, 0, 0, 0.01) !important;
+border: 1px solid blueviolet !important;
 }
 .searchResult-9tQ1uo {
-  border-top: 2px solid #789dbf !important;
-  border-bottom: 2px solid #789dbf !important;
+border-top: 2px solid #789dbf !important;
+border-bottom: 2px solid #789dbf !important;
 }
 .highlight {
-  background-color: blueviolet !important;
+background-color: blueviolet !important;
 }
 .typeWindows-1za-n7, .sidebar-2K8pFh {
-  background-color: rgba(0, 0, 0, 0.84) !important;
+background-color: rgba(0, 0, 0, 0.84) !important;
 }
 
 /*Me Trying Not To Make Changes In The Important Code LUL*/
 
 .wrapper-CU3qI5.muted-1NRuDm:hover .icon-WnO6o2, .wrapper-CU3qI5.muted-1NRuDm:hover .name-IbjUBS,
 .wrapper-CU3qI5:hover .icon-WnO6o2, .wrapper-CU3qI5:hover .name-IbjUBS {
-  filter: brightness(130%);
+filter: brightness(130%);
 }
