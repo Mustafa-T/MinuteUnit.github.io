@@ -152,6 +152,9 @@ div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
 #private-channels .highlighted-1gWxXa.clickable-1JJAn8 .layout-2DM8Md {
   border-color: white !important;
 }
+#private-channels .highlighted-1gWxXa.clickable-1JJAn8 .layout-2DM8Md .activityText-OW8WYb { 
+  color: white !important;
+}
 .clickable-1JJAn8:hover .subtext-1RtU34 {
   color: rgba(120, 157, 191, .7);
 }
@@ -286,11 +289,10 @@ svg.icon-22AiRD {
 /*This Makes The ScrollBars Pop*/
 
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-  background-color: rgba(0, 0, 0, 1);
-  border-color: rgba(0, 0, 0, 0);
+  background-color: blue;
 }
 .theme-dark .scrollerThemed-2oenus.themeGhostHairline-DBD-2d .scroller-2FKFPG::-webkit-scrollbar-thumb {
-  background-color: black;
+  background-color: blue;
 }
 .scroller-2wx7Hm::-webkit-scrollbar-thumb {
   background-color: blue;
@@ -417,8 +419,12 @@ svg.icon-22AiRD {
 
 /*This Causes The Difference In Transparency*/
 
-.scroller-2TZvBN, .title-3qD0b-, .members-1998pB, .nowPlayingScroller-2XrVUt, .container-1r6BKw, .scroller-3GIiMh, .searchHeader-2XoQg7 {
+.scroller-2TZvBN, .members-1998pB, .nowPlayingScroller-2XrVUt, .container-1r6BKw,
+.scroller-3GIiMh, .searchHeader-2XoQg7, .title-3qD0b-, .root-217Brm {
   background-color: rgba(0, 0, 0, 0.2) !important;
+}
+.root-217Brm .title-3qD0b- {
+  background-color: transparent !important;
 }
 .container-3baos1, .container-1giJp5, .panel-24C3ux {
   border-top: 1px solid #789dbf;
