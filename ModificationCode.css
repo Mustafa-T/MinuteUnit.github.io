@@ -138,6 +138,15 @@ div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
   color: white;
 }
 
+/*It's the Outline*/
+
+.selected-aXhQR6 .layout-2DM8Md {
+  background-color: rgba(0,0,0,.9);
+  color: #789dbf;
+  border: 2px solid #789dbf;
+  border-radius: 9px;
+}
+
 /*It's The Outline For The Friends DM*/
 
 #private-channels .clickable-1JJAn8:hover .layout-2DM8Md {
@@ -157,7 +166,10 @@ div.scroller-2FKFPG .clickable-1JJAn8:hover .layout-2DM8Md {
   color: white !important;
 }
 .clickable-1JJAn8:hover .subtext-1RtU34 {
-  color: rgba(120, 157, 191, .7);
+  color: #789dbf;
+}
+.selected-aXhQR6 .subtext-1RtU34 {
+  color: white;
 }
 .clickable-1JJAn8:hover .activity-2Gy-9S {
   color: #dcddde !important;
@@ -209,15 +221,6 @@ svg.icon-22AiRD {
 
 .content-3at_AU:hover {
   border: 2px dotted rgba(120, 157, 191, 1);
-  border-radius: 9px;
-}
-
-/*It's the Outline*/
-
-.selected-aXhQR6 .layout-2DM8Md {
-  background-color: rgba(0,0,0,.9);
-  color: #789dbf;
-  border: 2px solid #789dbf;
   border-radius: 9px;
 }
 
