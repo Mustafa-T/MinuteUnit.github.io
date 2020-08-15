@@ -374,7 +374,7 @@ svg.icon-22AiRD {
   box-shadow: none;
   color: white;
 }
-.theme-dark .tooltipBlack-PPG47z {
+.theme-dark .tooltipBlack-PPG47z, .theme-light .tooltipBlack-PPG47z {
   background-color: #c282d9;
 }
 .icon-KgGMGo,
@@ -386,9 +386,7 @@ svg.icon-22AiRD {
   border-radius: 0;
   box-shadow: none;
 }
-.tooltipPointer-3ZfirK {
-  border: none;
-}
+
 .wrapper-2aW0bm {
   background-color: #c282d9;
   border-radius: 20px;
