@@ -310,11 +310,11 @@ svg.icon-22AiRD {
 
 /*This Makes The ScrollBars Pop*/
 
-.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb {
-  background-color: #c282d9;
-}
 .theme-dark .scrollerBase-289Jih::-webkit-scrollbar-thumb {
   background-color: #c282d9 !important;
+}
+.theme-dark .scrollerBase-289Jih::-webkit-scrollbar-track {
+  background-color: transparent;
 }
 
 /*This Makes The Emoji Picker Look Better*/
