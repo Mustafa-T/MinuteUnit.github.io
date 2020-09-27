@@ -489,10 +489,10 @@ svg.icon-22AiRD {
 /*This Causes The Difference In Transparency*/
 
 .nowPlayingColumn-2sl4cE, .container-1r6BKw, .scroller-3GIiMh,
-.searchHeader-2XoQg7, .root-217Brm, .peopleColumn-29fq28 {
+.searchHeader-2XoQg7, .peopleColumn-29fq28 {
   background-color: rgba(0, 0, 0, 0.41) !important;
 }
-.scroller-2TZvBN, .title-3qD0b-, .members-1998pB {
+.scroller-2TZvBN, .title-3qD0b-, .members-1998pB, .root-217Brm {
   background-color: rgba(0, 0, 0, 0.56) !important;
 }
 .root-217Brm .title-3qD0b- {
