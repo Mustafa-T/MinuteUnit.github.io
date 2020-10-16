@@ -43,7 +43,7 @@ body * {
   You can use this to make your background image lighter or darker
   Default: rgba(0, 0, 0, 0.8)
   */
-  --main-transparency: rgba(0, 0, 0, 0.73);
+  --main-transparency: rgba(0, 0, 0, 0.6);
 
   /*
   Change the unread server animation.
