@@ -430,12 +430,12 @@ svg.icon-22AiRD {
   color: #CF86BE !important;
   border: 2px dotted #CF86BE !important;
 }
-.item-PXvHYJ[role*= "button"][tabindex*="0"][style*="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
+.item-PXvHYJ[aria-selected="true"][aria-controls="Discord Nitro-tab"][style="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"] {
   border: 2px solid #CF86BE;
   color: #CF86BE !important;
   background-color: black !important;
 }
-.item-PXvHYJ[role*= "button"][tabindex*="0"][style*="color: rgb(255, 255, 255); background-color: rgb(114, 137, 218);"]:hover {
+.item-PXvHYJ[aria-selected="true"][aria-controls="Discord Nitro-tab"] {
   cursor: default !important;
 }
 #bd-settings-sidebar .ui-tab-bar-item:hover {
@@ -486,13 +486,6 @@ svg.icon-22AiRD {
   border: none !important;
 }
 
-/*Me Trying Not To Make Changes In The Important Code LUL*/
-
-.wrapper-CU3qI5.muted-1NRuDm:hover .icon-WnO6o2, .wrapper-CU3qI5.muted-1NRuDm:hover .name-IbjUBS,
-.wrapper-CU3qI5:hover .icon-WnO6o2, .wrapper-CU3qI5:hover .name-IbjUBS {
-  filter: brightness(130%);
-}
-
 /*This Causes The Difference In Transparency*/
 
 .nowPlayingColumn-2sl4cE, .container-1r6BKw, .scroller-3GIiMh,
@@ -501,6 +494,9 @@ svg.icon-22AiRD {
 }
 .scroller-2TZvBN, .title-3qD0b-, .members-1998pB, .root-217Brm {
   background-color: rgba(0, 0, 0, 0.56) !important;
+}
+.container-3w7J-x{
+  background-color: rgba(0, 0, 0, 0.01) !important;
 }
 .root-217Brm .title-3qD0b- {
   background-color: transparent !important;
@@ -530,8 +526,15 @@ svg.icon-22AiRD {
   box-shadow: var(--elevation-low) !important;
 }
 .typeWindows-1za-n7, .sidebar-2K8pFh {
-  background-color: rgba(0, 0, 0, 0.82) !important;
+  background-color: rgba(0, 0, 0, 0.84) !important;
 }
 .timestamp-3ZCmNB {
   color: rgba(225, 225, 225, 0.6) !important;
+}
+
+/*Me Trying Not To Make Changes In The Important Code LUL*/
+
+.wrapper-CU3qI5.muted-1NRuDm:hover .icon-WnO6o2, .wrapper-CU3qI5.muted-1NRuDm:hover .name-IbjUBS,
+.wrapper-CU3qI5:hover .icon-WnO6o2, .wrapper-CU3qI5:hover .name-IbjUBS {
+  filter: brightness(130%);
 }
